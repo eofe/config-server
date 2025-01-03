@@ -1,0 +1,23 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+
+  profiles:
+    active: native
+
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: "classpath:/config"
+#logging:
+#  level:
+#    org.springframework.web: DEBUG       # Logs Spring Web components
+#    org.springframework.http: DEBUG      # Logs HTTP details
+#    org.apache.http: DEBUG               # Logs Apache HTTP client details
+#    reactor.netty.http.client: DEBUG     # Logs Netty HTTP client (used in WebClient)
+#    reactor.netty.http.server: DEBUG     # Logs Netty HTTP server (if applicable)
+#    org.springframework.cloud: DEBUG     # Logs Spring Cloud-specific components

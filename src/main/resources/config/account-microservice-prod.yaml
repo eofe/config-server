@@ -1,0 +1,20 @@
+error:
+  account:
+    null-dto: "AccountDTO cannot be null"
+    not-exist: "Account with account number {} does not exist."
+    not-found: "Account not found for account number: {}"
+    resource-not-found: "Account not found for account number: {}"
+    null-or-empty: "Account number is null or empty"
+    bad-account-number-format: "Account number format is invalid. Expected format: ACC followed by 10 hexadecimal characters."
+
+info:
+  account:
+    create-request: "Received request to create account with name: {}"
+    get-request: "Received request to get account with account number: {}"
+    update-request: "Received request to update account with account number: {}"
+    delete-request: "Received request to delete account with account number: {}"
+    fetch: "Fetching account with account number: {}"
+    update: "Updating account with account number: {}"
+    update-success: "Successfully updated account with account number: {}"
+    delete: "Deleting account with account number: {}"
+    delete-success: "Successfully deleted account with account number: {}"
